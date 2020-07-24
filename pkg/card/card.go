@@ -28,10 +28,9 @@ func AddTransaction(card *Card, transaction *Transaction) {
 	card.Transactions = append(card.Transactions, transaction)
 }
 
-func SortBySum (transactions []*Transaction) []*Transaction {
+func SortBySum (transactions []*Transaction) {
 	sort.SliceStable(transactions, func(i, j int) bool {return transactions[i].Sum > transactions[j].Sum })
 	for i, _ := range transactions {
 		fmt.Println("for sum", transactions[i].Sum)
 	}
-	return transactions
 }

@@ -40,5 +40,5 @@ func main() {
 	}
 
 	card.AddTransaction(master, newTransaction)
-	fmt.Println(card.SortBySum(master.Transactions))
+	card.SortBySum(master.Transactions)
 }
