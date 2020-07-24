@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/lizaMosiyash/bgo-1_2.3/pkg/card"
+	"github.com/lizaMosiyash/bgo-1_2.3.1/pkg/card"
 	"time"
 )
 
